@@ -18,7 +18,7 @@ public class Main {
         do {
             ShipContainer Ship = ShipContainer.values()[ship];
             if (nextShip) {
-                Main.showField();
+                Main.showField(); // rex
                 System.out.println("Enter the coordinates of the " + Ship.getShipName() + " (" + Ship.getNumberOfCells() + " cells):");
             }
 
